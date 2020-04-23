@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="COLA.cs" />
     <Compile Include="COLECCIONABLE.cs" />
+    <Compile Include="LISTA.cs" />
+    <Compile Include="PILA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
