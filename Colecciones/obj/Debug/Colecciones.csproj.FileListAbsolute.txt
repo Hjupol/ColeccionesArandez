@@ -1,0 +1,2 @@
+C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.csprojAssemblyReference.cache
+C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.csproj.CoreCompileInputs.cache
