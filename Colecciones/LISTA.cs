@@ -92,7 +92,45 @@ namespace Colecciones
             Console.WriteLine("Se ha agregado un nuevo nodo a la lista.\nCantidad: " + cantidad.ToString());
         }
 
-        
+        public int Remover(int index)
+        {
+            nodoActual = primerNodo;
+            for (int i = 0; i < cantidad; i++)
+            {
+                if (nodoActual.Posicion == index)
+                {
+                    if (nodoActual.ProximoNodo != null)
+                    {
+                        nodoActual = nodoActual.ProximoNodo;
+                        nodoActual.Posicion--;
+                    }
+                    else
+                    {
+                        nodoActual = null;
+                    }
+                    cantidad--;
+                }
+                else
+                {
+                    if (nodoActual.ProximoNodo.Posicion == index)
+                    {
+                        if (nodoActual.ProximoNodo.ProximoNodo != null)
+                        {
+                            nodoActual.ProximoNodo = nodoActual.ProximoNodo.ProximoNodo;
+                            nodoActual.ProximoNodo.Posicion--;
+                            nodoActual.ProximoNodo.ProximoNodo = null;
+                            cantidad--;
+                        }
+                        else
+                        {
+                            nodoActual.ProximoNodo = null;
+                            cantidad--;
+                        }
+                    }
+                }
+            }
+            return cantidad;
+        }
 
         public NODO<T> Obtener(int index)
         {

@@ -13,7 +13,6 @@ namespace ConsoleApp1
             LISTA<int> lista = new LISTA<int>();
 
 
-
             for (int i = 0; i < 5; i++)
             {
                 NODO<int> nodo = new NODO<int>();

@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="COLA.cs" />
     <Compile Include="LISTA.cs" />
     <Compile Include="NODO.cs" />
+    <Compile Include="PILA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
