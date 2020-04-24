@@ -1,6 +1,0 @@
-C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.csprojAssemblyReference.cache
-C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.csproj.CoreCompileInputs.cache
-C:\Users\thehj\source\repos\Colecciones\Colecciones\bin\Debug\Colecciones.dll
-C:\Users\thehj\source\repos\Colecciones\Colecciones\bin\Debug\Colecciones.pdb
-C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.dll
-C:\Users\thehj\source\repos\Colecciones\Colecciones\obj\Debug\Colecciones.pdb
