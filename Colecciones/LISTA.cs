@@ -107,21 +107,38 @@ namespace Colecciones
                     nodoActual = nodoActual.ProximoNodo;
                 }
             }
-
+            if (nodoPedido == null)
+            {
+                Console.WriteLine("\nEl nodo pedido no existe.");
+            }
             return nodoPedido;
         }
 
         public NODO<T> ObtenerPrimero(int index)
         {
             NODO<T> nodoPedido = null;
-            nodoPedido = primerNodo;
+            if (primerNodo != null)
+            {
+                nodoPedido = primerNodo;
+            }
+            else
+            {
+                Console.WriteLine("\nLa lista no posee ningun nodo.");
+            }
             return nodoPedido;
         }
 
         public NODO<T> ObtenerUltimo(int index)
         {
             NODO<T> nodoPedido = null;
-            nodoPedido = ultimoNodo;
+            if (ultimoNodo != null)
+            {
+                nodoPedido = ultimoNodo;
+            }
+            else
+            {
+                Console.WriteLine("\nLa lista no posee ningun nodo.");
+            }
             return nodoPedido;
         }
 
