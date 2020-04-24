@@ -67,6 +67,7 @@ namespace Colecciones
                 cantidad++;
 
             }
+            Console.WriteLine("Se ha agregado un nuevo nodo a la lista.\nCantidad: " + cantidad.ToString());
         }
 
         public void AgregarUltimo(NODO<T> nuevoNodo)
@@ -86,9 +87,12 @@ namespace Colecciones
                 ultimoNodo.ProximoNodo = nuevoNodo;
                 ultimoNodo = nuevoNodo;
                 cantidad++;
+
             }
+            Console.WriteLine("Se ha agregado un nuevo nodo a la lista.\nCantidad: " + cantidad.ToString());
         }
 
+        
 
         public NODO<T> Obtener(int index)
         {

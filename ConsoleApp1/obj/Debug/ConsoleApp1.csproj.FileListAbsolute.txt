@@ -1,0 +1,9 @@
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\bin\Debug\Colecciones.dll
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\bin\Debug\Colecciones.pdb
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\thehj\source\repos\Colecciones\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
