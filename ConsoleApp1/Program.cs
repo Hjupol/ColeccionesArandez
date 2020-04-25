@@ -22,6 +22,11 @@ namespace ConsoleApp1
                 lista.AgregarUltimo(nodo);
             }
             Console.ReadLine();
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Se removió el nodo en la posición " + i.ToString() + " quedan " + lista.Remover(i).ToString() + " nodos en la lista.");
+                Console.ReadLine();
+            }
         }
     }
 }

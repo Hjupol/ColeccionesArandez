@@ -108,7 +108,6 @@ namespace Colecciones
                     {
                         nodoActual = null;
                     }
-                    cantidad--;
                 }
                 else
                 {
@@ -119,16 +118,15 @@ namespace Colecciones
                             nodoActual.ProximoNodo = nodoActual.ProximoNodo.ProximoNodo;
                             nodoActual.ProximoNodo.Posicion--;
                             nodoActual.ProximoNodo.ProximoNodo = null;
-                            cantidad--;
                         }
                         else
                         {
                             nodoActual.ProximoNodo = null;
-                            cantidad--;
                         }
                     }
                 }
             }
+            cantidad--;
             return cantidad;
         }
 
