@@ -66,17 +66,27 @@ namespace Colecciones
         {
             NODO<T> nodoDesapilado;
             nodoDesapilado = ultimoNodo;
-            
-            for (int i = 0; i < cantidad; i++)
+            nodoActual = primerNodo;
+            if (ultimoNodo == primerNodo)
             {
-                if (nodoActual.ProximoNodo == ultimoNodo)
+                nodoDesapilado = primerNodo;
+                cantidad--;
+                primerNodo = null;
+                ultimoNodo = null;
+            }
+            else
+            {
+                for (int i = 0; i < cantidad; i++)
                 {
-                    ultimoNodo = nodoActual;
-                    nodoActual.ProximoNodo = null;
-                    
-                    cantidad--;
+                    if (nodoActual.ProximoNodo == ultimoNodo)
+                    {
+                        ultimoNodo = nodoActual;
+                        nodoActual.ProximoNodo = null;
+
+                        cantidad--;
+                    }
+
                 }
-                
             }
             return nodoDesapilado;
         }
