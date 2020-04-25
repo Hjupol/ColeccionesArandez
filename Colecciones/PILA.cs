@@ -70,7 +70,6 @@ namespace Colecciones
             if (ultimoNodo == primerNodo)
             {
                 nodoDesapilado = primerNodo;
-                cantidad--;
                 primerNodo = null;
                 ultimoNodo = null;
             }
@@ -83,11 +82,11 @@ namespace Colecciones
                         ultimoNodo = nodoActual;
                         nodoActual.ProximoNodo = null;
 
-                        cantidad--;
                     }
 
                 }
             }
+            cantidad--;
             return nodoDesapilado;
         }
     }
